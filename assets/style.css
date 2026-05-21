@@ -1,0 +1,206 @@
+
+/* ==========================
+   GLOBAL
+========================== */
+body {
+    background: #0f172a;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.main-container {
+    padding: 20px;
+}
+
+/* ==========================
+   TITLE
+========================== */
+.dashboard-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    background: linear-gradient(
+        90deg,
+        #7c3aed,
+        #06b6d4,
+        #ec4899
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ==========================
+   FILTERS
+========================== */
+.filter-container {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.filter-container label {
+    color: #cbd5e1;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* ==========================
+   DROPDOWN (FINAL FIX)
+========================== */
+.Select-control {
+    background: white !important;
+    border-radius: 12px !important;
+    min-height: 45px !important;
+    border: none !important;
+}
+/* Selected value text */
+.Select-value-label {
+    color: black !important;
+    font-weight: 500 !important;
+}
+/* Placeholder */
+.Select-placeholder {
+    color: #666 !important;
+}
+/* Input typing */
+.Select-input input {
+    color: black !important;
+}
+/* Selected tags */
+.Select--multi .Select-value {
+    background: #e2e8f0 !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
+.Select--multi .Select-value-label {
+    color: black !important;
+}
+.Select--multi .Select-value-icon {
+    color: black !important;
+}
+/* Dropdown menu */
+.Select-menu-outer {
+    background: white !important;
+    color: black !important;
+}
+.VirtualizedSelectOption {
+    background: white !important;
+    color: black !important;
+}
+.VirtualizedSelectFocusedOption {
+    background: #dbeafe !important;
+    color: black !important;
+}
+
+/* ==========================
+   KPI CARDS
+========================== */
+.kpi-container {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 35px;
+}
+.kpi-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgba(
+        255,
+        255,
+        255,
+        0.08
+    );
+    box-shadow:
+        0 8px 25px rgba(
+            0,
+            0,
+            0,
+            0.35
+        );
+    transition: 0.3s;
+}
+.kpi-card:hover {
+    transform: translateY(-5px);
+}
+.kpi-card h3 {
+    color: #06b6d4;
+    font-size: 28px;
+    margin: 0;
+}
+.kpi-card p {
+    color: #cbd5e1;
+}
+
+/* ==========================
+   CHART GRID
+========================== */
+.chart-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Graph container */
+.dash-graph {
+    background: rgba(
+        255,
+        255,
+        255,
+        0.05
+    );
+    border-radius: 18px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Prevent graph stretching */
+.js-plotly-plot,
+.plot-container,
+.svg-container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+@media (max-width: 900px) {
+    .chart-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ==========================
+   SHOW SELECTED STATE NAME
+========================== */
+/* Selected value text */
+.mantine-MultiSelect-value,
+.mantine-Select-value {
+    background-color: #dbeafe !important;
+    color: black !important;
+    border-radius: 8px !important;
+}
+/* Selected text */
+.mantine-MultiSelect-pill,
+.mantine-Pill-root {
+    color: black !important;
+    background-color: #dbeafe !important;
+    font-weight: 500 !important;
+}
+/* Input box */
+.mantine-Input-input {
+    background-color: #87CEEB !important;
+    color: black !important;
+    border-radius: 12px !important;
+}
+/* Placeholder */
+.mantine-Input-input::placeholder {
+    color: #333 !important;
+}
