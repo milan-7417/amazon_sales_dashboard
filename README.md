@@ -9,7 +9,7 @@ A professional interactive sales analytics dashboard built using **Python, Plotl
 
 ## 🚀 Live Demo
 
-🔗 **Dashboard Link:** *(Add Plotly Cloud URL after deployment)*
+🔗 **Dashboard Link:** *(https://amazon-sales-dashboard-nw2c.onrender.com/)*
 
 ---
 
@@ -24,7 +24,7 @@ The project includes:
 - KPI Tracking
 - Interactive Filters
 - Business Insights Dashboard
-- Deployment on Plotly Cloud
+- Deployment on Render
 
 ---
 
@@ -141,7 +141,7 @@ Performed detailed EDA to understand:
 - Plotly Graph Objects
 
 ### Deployment
-- Plotly Cloud
+- Render
 
 ---
 
