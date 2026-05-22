@@ -1,3 +1,6 @@
+<img width="1875" height="942" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/b9ac7c3d-d388-4603-ad91-f41a886d37ec" />
+
+
 # 📊 Amazon Sales Analytics Dashboard
 
 A professional interactive sales analytics dashboard built using **Python, Plotly Dash, Pandas, and Plotly Express** to analyze Amazon sales performance. This project focuses on **data cleaning, exploratory data analysis (EDA), business insights, and interactive dashboarding**.
